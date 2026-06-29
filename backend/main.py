@@ -363,7 +363,7 @@ async def health_check():
         "redis": redis_status,
         "playwright": playwright_status
     }
-GOOGLE_REDIRECT_URI = os.getenv("GOOGLE_REDIRECT_URI")
+
 @app.get("/login")
 async def login(request: Request):
     logger.info("Initiating Google OAuth login flow.")
@@ -375,7 +375,7 @@ async def login(request: Request):
     if not GOOGLE_CLIENT_ID:
         raise HTTPException(status_code=500, detail="OAuth not configured")
     redirect_uri = str(request.url_for('google_auth'))
-    return await oauth.google.authorize_redirect(request, GOOGLE_REDIRECT_URI)
+    return await oauth.google.authorize_redirect(request, redirect_uri)
 
 @app.get("/auth", name="google_auth")
 async def auth_callback(request: Request, db: Session = Depends(get_db)):
