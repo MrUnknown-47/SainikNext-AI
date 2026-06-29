@@ -19,7 +19,7 @@ export const authService = {
   login: () => {
     const apiBase = process.env.NEXT_PUBLIC_API_URL 
       ? process.env.NEXT_PUBLIC_API_URL.replace(/\/$/, "") 
-      : "http://localhost:8000";
+      : "https://sainiknext.up.railway.app";
     window.location.href = `${apiBase}/login`;
   }
 };
