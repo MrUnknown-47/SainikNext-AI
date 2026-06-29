@@ -1,0 +1,177 @@
+[
+  {
+    "role": "Company Commander (Infantry)",
+    "description": "Led an infantry company of 120+ soldiers in tactical, combat, and peace-time operations. Managed logistics, training, and operational readiness.",
+    "civilian_equivalent": "Operations Manager / Operations Director",
+    "skills": ["Leadership", "Operations Management", "Strategic Planning", "Crisis Management", "Resource Allocation"],
+    "certifications": ["Project Management Professional (PMP)", "Certified Manager (CM)"]
+  },
+  {
+    "role": "Signals Officer (Corps of Signals)",
+    "description": "Planned, established, and maintained secure military communication networks, including satellite links, radio systems, and encryption nodes.",
+    "civilian_equivalent": "Network Operations Manager / IT Director",
+    "skills": ["Network Administration", "Telecommunications", "Cyber Security", "IT Infrastructure", "Project Management"],
+    "certifications": ["CCNA", "CISSP", "CompTIA Network+"]
+  },
+  {
+    "role": "Artillery Battery Commander",
+    "description": "Directed artillery operations, fire control systems, and deployment of complex weapon platforms. Managed logistics and synchronized operations under pressure.",
+    "civilian_equivalent": "Operations & Logistics Manager",
+    "skills": ["Operational Logistics", "Team Leadership", "Data Analysis", "Risk Assessment", "Systems Engineering"],
+    "certifications": ["PMP", "Six Sigma Green Belt"]
+  },
+  {
+    "role": "Armoured Corps Squadron Commander",
+    "description": "Commanded a squadron of main battle tanks, managing heavy equipment maintenance, tactical movements, and asset conservation.",
+    "civilian_equivalent": "Fleet Operations Manager / Asset Manager",
+    "skills": ["Fleet Management", "Heavy Equipment Operations", "Preventive Maintenance", "Logistics Planning", "Leadership"],
+    "certifications": ["Certified Maintenance & Reliability Professional (CMRP)"]
+  },
+  {
+    "role": "Supply Chain Officer (Army Service Corps - ASC)",
+    "description": "Orchestrated large-scale supply chain logistics, distributing food, fuel, and supplies to remote locations across diverse terrains.",
+    "civilian_equivalent": "Supply Chain Director / Logistics Lead",
+    "skills": ["Supply Chain Management", "Warehouse Operations", "Procurement", "Inventory Control", "Vendor Management"],
+    "certifications": ["Certified Supply Chain Professional (CSCP)", "APICS"]
+  },
+  {
+    "role": "Ammunition & Materials Manager (Army Ordnance Corps - AOC)",
+    "description": "Managed inventory, storage, quality check, and distribution of ammunition, explosives, and military hardware worth millions.",
+    "civilian_equivalent": "Materials Manager / Inventory Control Specialist",
+    "skills": ["Inventory Management", "Hazardous Materials Handling", "Quality Assurance", "Warehousing", "Safety Auditing"],
+    "certifications": ["Certified in Production and Inventory Management (CPIM)"]
+  },
+  {
+    "role": "Maintenance Engineer (Corps of EME)",
+    "description": "Directed workshop operations for the repair and overhaul of military vehicles, electronics, weapon systems, and mechanical assets.",
+    "civilian_equivalent": "Maintenance Manager / Workshop Director",
+    "skills": ["Mechanical Engineering", "Electronics Maintenance", "Preventive Maintenance", "Workshop Management", "Root Cause Analysis"],
+    "certifications": ["Six Sigma Black Belt", "Certified Quality Engineer (CQE)"]
+  },
+  {
+    "role": "Civil Construction Commander (Corps of Engineers)",
+    "description": "Supervised construction of roads, bridges, barracks, and defensive fortifications in high-altitude and border regions.",
+    "civilian_equivalent": "Civil Construction Project Manager / Infrastructure Manager",
+    "skills": ["Civil Engineering", "Project Scheduling", "Contract Management", "Resource Management", "Site Safety"],
+    "certifications": ["PMP", "LEED Associate", "OSHA Safety Certification"]
+  },
+  {
+    "role": "Intelligence Analyst (Army Intelligence Corps)",
+    "description": "Collected, parsed, and analyzed intelligence data to evaluate security threats, counter-intelligence measures, and risk profiles.",
+    "civilian_equivalent": "Risk Assessment Director / Security Analyst",
+    "skills": ["Threat Intelligence", "Risk Analysis", "Data Security", "Strategic Planning", "Investigation"],
+    "certifications": ["Certified Information Security Manager (CISM)", "Certified Fraud Examiner (CFE)"]
+  },
+  {
+    "role": "Medical Operations Officer (Army Medical Corps - AMC)",
+    "description": "Administered military hospitals and field clinics, managing medical logistics, patient evacuation, and healthcare facilities.",
+    "civilian_equivalent": "Healthcare Operations Manager / Hospital Administrator",
+    "skills": ["Healthcare Administration", "Emergency Response", "Medical Logistics", "Team Leadership", "Regulatory Compliance"],
+    "certifications": ["Certified Healthcare Constructor (CHC)", "Hospital Administration Diploma"]
+  },
+  {
+    "role": "Flight Operations Officer (Army Aviation)",
+    "description": "Piloted helicopters and coordinated flight operations, search and rescue missions, and logistics airlifts.",
+    "civilian_equivalent": "Flight Operations Manager / Aviation Safety Specialist",
+    "skills": ["Aviation Operations", "Flight Safety", "Crew Resource Management", "Emergency Planning", "Meteorology Analysis"],
+    "certifications": ["Commercial Pilot License (CPL)", "Aviation Safety Officer Certificate"]
+  },
+  {
+    "role": "Legal Advisor (Judge Advocate General's Department)",
+    "description": "Provided legal counsel on military law, international treaties, contract negotiations, and represented cases in courts-martial.",
+    "civilian_equivalent": "Corporate Counsel / Legal Advisor",
+    "skills": ["Corporate Law", "Contract Negotiation", "Litigation", "Compliance Monitoring", "Arbitration"],
+    "certifications": ["Bar Council License", "Corporate Compliance Certifications"]
+  },
+  {
+    "role": "Provost Marshal (Corps of Military Police - CMP)",
+    "description": "Enforced law, traffic management, and security protocols within cantonments, investigating misconduct and accidents.",
+    "civilian_equivalent": "Security Director / Chief of Investigations",
+    "skills": ["Law Enforcement", "Investigation", "Physical Security", "Crisis Management", "Public Relations"],
+    "certifications": ["Certified Protection Professional (CPP)", "Physical Security Professional (PSP)"]
+  },
+  {
+    "role": "Training & Development Director (Army Education Corps - AEC)",
+    "description": "Designed educational programs, language courses, and professional development paths for army officers and soldiers.",
+    "civilian_equivalent": "L&D Director / Corporate Trainer",
+    "skills": ["Curriculum Design", "Instructional Design", "Training Delivery", "E-learning Systems", "Performance Assessment"],
+    "certifications": ["Certified Professional in Talent Development (CPTD)"]
+  },
+  {
+    "role": "Special Forces Team Leader (Para SF)",
+    "description": "Commanded high-risk, covert, and counter-terrorist operations, specializing in rapid deployment, survival, and target interdiction.",
+    "civilian_equivalent": "Crisis Response Director / Security consultant",
+    "skills": ["Crisis Management", "High-Risk Security", "Tactical Operations", "Survival Training", "Leadership"],
+    "certifications": ["CPP", "Certified Emergency Manager (CEM)"]
+  },
+  {
+    "role": "Air Defence Coordinator (Army Air Defence)",
+    "description": "Operated and coordinated radar warning networks, air space management, and anti-aircraft missile defense systems.",
+    "civilian_equivalent": "Air Traffic Operations Specialist / Systems Supervisor",
+    "skills": ["Systems Monitoring", "Radar Systems", "Strategic Coordination", "Data Interpretation", "Air Traffic Control"],
+    "certifications": ["ATC Licenses", "System Operations Specialist Certificate"]
+  },
+  {
+    "role": "Veterinary Operations Head (Remount and Veterinary Corps)",
+    "description": "Managed breeding, training, and veterinary health programs for service animals (dogs and equines) in operations.",
+    "civilian_equivalent": "Veterinary Director / Livestock Operations Manager",
+    "skills": ["Veterinary Medicine", "Animal Handling & Training", "Facility Administration", "Biosecurity", "Supply Chain"],
+    "certifications": ["DVM (Doctor of Veterinary Medicine)", "Advanced Animal Care Certificates"]
+  },
+  {
+    "role": "Cyber Operations Lead (Corps of Signals Cyber Node)",
+    "description": "Defended military networks against sophisticated cyber attacks, conducting vulnerability assessments and malware analysis.",
+    "civilian_equivalent": "Cyber Security Operations Center (SOC) Manager",
+    "skills": ["Cyber Security", "Penetration Testing", "Incident Response", "Firewall Configuration", "Vulnerability Management"],
+    "certifications": ["CEH (Certified Ethical Hacker)", "CISSP", "CompTIA Security+"]
+  },
+  {
+    "role": "Technical Operations Manager (EME Workshop)",
+    "description": "Supervised production, tooling, and repair schedules of electrical and heavy automotive military equipment.",
+    "civilian_equivalent": "Production & Assembly Plant Manager",
+    "skills": ["Production Planning", "Resource Management", "Lean Manufacturing", "Equipment Maintenance", "Safety Compliance"],
+    "certifications": ["Six Sigma Green Belt", "Certified Manufacturing Engineer (CMfgE)"]
+  },
+  {
+    "role": "Procurement depot Manager (ASC Supply Depot)",
+    "description": "Managed procurement processes, warehousing, and strategic logistics for dry and cold-chain goods.",
+    "civilian_equivalent": "Procurement Manager / Inventory Superintendent",
+    "skills": ["Procurement", "Cold Chain Management", "Warehouse Auditing", "Vendor Negotiation", "Inventory Systems"],
+    "certifications": ["Certified Professional in Supply Management (CPSM)"]
+  },
+  {
+    "role": "Grenadiers Infantry Havildar",
+    "description": "Led a section of 10 infantrymen, supervising daily drill, security protocols, physical fitness, and tactical operations.",
+    "civilian_equivalent": "Security Supervisor / Operations Coordinator",
+    "skills": ["Security Protocols", "Team Management", "First Aid", "Physical Security", "Training Administration"],
+    "certifications": ["First Aid & CPR Certification", "Physical Security Supervisor Certificate"]
+  },
+  {
+    "role": "Network Systems Engineer (Signals Technical Unit)",
+    "description": "Configured military-grade routing, switching, and VOIP systems for mobile headquarters in active deployments.",
+    "civilian_equivalent": "Systems Administrator / Cloud Operations Lead",
+    "skills": ["System Administration", "Routing & Switching", "VOIP Systems", "Cloud Configuration", "Technical Troubleshooting"],
+    "certifications": ["CCNP", "AWS Solutions Architect"]
+  },
+  {
+    "role": "Logistics Planner (Army Ordnance Depot)",
+    "description": "Planned multi-modal transport networks (rail, air, road) for material dispatch to border posts.",
+    "civilian_equivalent": "Transportation Operations Analyst / Dispatch Manager",
+    "skills": ["Transportation Logistics", "Route Optimization", "Multi-modal Transport", "Strategic Scheduling", "Compliance"],
+    "certifications": ["APICS Logistics (CLTD)"]
+  },
+  {
+    "role": "Aviation Safety Officer (Army Aviation Wing)",
+    "description": "Inspected aircraft systems, investigated flight incidents, and led safety training workshops for pilots and maintenance crews.",
+    "civilian_equivalent": "EHS Manager / Aviation Safety Consultant",
+    "skills": ["Safety Auditing", "Incident Investigation", "Risk Mitigation", "Training Delivery", "Compliance Checklists"],
+    "certifications": ["NEBOSH", "Aviation Safety Management System (SMS) Certificate"]
+  },
+  {
+    "role": "Human Resources & Admin Officer (Adjutant's Office)",
+    "description": "Managed personnel records, leave scheduling, performance reviews, welfare activities, and administrative tasks for 500+ troops.",
+    "civilian_equivalent": "HR Operations Manager / Chief Admin Officer",
+    "skills": ["HR Operations", "Personnel Management", "Record Keeping", "Performance Evaluation", "Welfare Administration"],
+    "certifications": ["SHRM-CP", "PHR (Professional in Human Resources)"]
+  }
+]

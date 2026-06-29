@@ -1,0 +1,32 @@
+[
+  {
+    "army_role": "Infantry Officer",
+    "description": "Leads infantry soldiers in combat operations, responsible for training, welfare, and tactical employment of the unit. Manages complex operations under high pressure.",
+    "skills": ["Leadership", "Strategic Planning", "Project Management", "Crisis Management", "Risk Assessment"],
+    "civilian_roles": [
+        {"title": "Operations Manager", "match_score": 0.95},
+        {"title": "Project Manager", "match_score": 0.88},
+        {"title": "Director of Security", "match_score": 0.92}
+    ]
+  },
+  {
+    "army_role": "Signals Intelligence Analyst",
+    "description": "Intercepts, records, and analyzes foreign communications. Uses advanced technology to gather intelligence to support tactical and strategic operations.",
+    "skills": ["Data Analysis", "Cybersecurity", "Technical Communication", "Critical Thinking", "Information Systems"],
+    "civilian_roles": [
+        {"title": "Cybersecurity Analyst", "match_score": 0.96},
+        {"title": "Data Analyst", "match_score": 0.90},
+        {"title": "Network Engineer", "match_score": 0.85}
+    ]
+  },
+  {
+    "army_role": "Corps of Engineers Sapper",
+    "description": "Provides combat engineering support, including bridging, minelaying/clearing, and construction of field defenses. Manages technical projects in rudimentary environments.",
+    "skills": ["Civil Engineering", "Project Construction Management", "Logistics", "Problem Solving", "Heavy Equipment Operation"],
+    "civilian_roles": [
+        {"title": "Construction Project Manager", "match_score": 0.94},
+        {"title": "Civil Engineer", "match_score": 0.89},
+        {"title": "Logistics Coordinator", "match_score": 0.82}
+    ]
+  }
+]

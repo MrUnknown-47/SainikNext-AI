@@ -1,0 +1,197 @@
+# ==============================================================================
+# SAINIKNEXT AI - PRODUCTION-GRADE .GITIGNORE
+# ==============================================================================
+# This file prevents committing unnecessary, temporary, cached, or sensitive
+# files to the repository. It is organized by technology and tool stack.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. PYTHON COMPILED ARTIFACTS
+# ------------------------------------------------------------------------------
+# Python compiles source files (.py) into byte-code (.pyc, .pyo, .pyd) for 
+# performance. Shared dynamic library files (.so) are environment-specific 
+# and must not be shared.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ------------------------------------------------------------------------------
+# 2. PYTHON TESTS, CODE QUALITY, & COVERAGE
+# ------------------------------------------------------------------------------
+# Test execution tools (pytest), static analyzers (mypy, ruff), and test coverage 
+# engines generate local cache folders and coverage reports that should not be tracked.
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+reports/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ------------------------------------------------------------------------------
+# 3. VIRTUAL ENVIRONMENTS
+# ------------------------------------------------------------------------------
+# Virtual environments isolate project dependencies locally. All required packages 
+# are defined in requirements.txt and should be installed independently in each 
+# environment (local dev, production, CI/CD).
+.venv/
+venv/
+
+
+# ------------------------------------------------------------------------------
+# 5. NODE / NEXT.JS BUILD & DEPENDENCIES
+# ------------------------------------------------------------------------------
+# Node package managers download packages into node_modules. This directory is
+# huge and must be compiled locally. Next.js build output (.next) is generated
+# dynamically on build/compilation and must not be checked in.
+node_modules/
+/frontend/node_modules/
+.next/
+/frontend/.next/
+out/
+build/
+dist/
+pnpm-lock.yaml
+
+# ------------------------------------------------------------------------------
+# 6. PLAYWRIGHT TESTING & BROWSER BINARIES
+# ------------------------------------------------------------------------------
+# Playwright runs automated tests and web scrapers. It downloads chromium, firefox,
+# and webkit binaries (under .playwright) and outputs test logs, screenshots,
+# videos, and trace files during operations.
+playwright-report/
+test-results/
+.playwright/
+**/playwright-report/
+**/test-results/
+**/screenshots/
+**/videos/
+**/traces/
+.chrome/
+
+# ------------------------------------------------------------------------------
+# 7. HUGGINGFACE & AI MODELS
+# ------------------------------------------------------------------------------
+# Machine learning models (.bin, .safetensors, .onnx, .pt, .pth) are large binary
+# files that should be retrieved via caching or preloaded download scripts rather
+# than tracked in Git version history.
+models/
+cache/
+.cache/
+huggingface/
+.huggingface/
+.cache/huggingface/
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.pkl
+
+# ------------------------------------------------------------------------------
+# 8. FAISS VECTOR INDEX & EMBEDDINGS
+# ------------------------------------------------------------------------------
+# FAISS indices (.index) and generated vector stores are compiled dynamically from
+# raw datasets during runtime and should not be version controlled.
+*.index
+*.faiss
+vector_store/
+backend/vector_store/
+embeddings/
+**/embeddings/
+
+# ------------------------------------------------------------------------------
+# 9. LOCAL SQL DATABASES
+# ------------------------------------------------------------------------------
+# Relational databases (PostgreSQL, SQLite Fallbacks) store dynamic user data.
+# sqlite databases are binary and updated locally. Never commit active db instances.
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+backend/database/*.sqlite
+backend/database/*.db
+users.sqlite
+test_users.sqlite
+
+# ------------------------------------------------------------------------------
+# 10. SYSTEM FILES (OS SPECIFIC)
+# ------------------------------------------------------------------------------
+# macOS and Windows write metadata files (.DS_Store, Thumbs.db) to track folders.
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# ------------------------------------------------------------------------------
+# 11. DOCKER & CONTAINER CACHES
+# ------------------------------------------------------------------------------
+# Docker volume mounts and temp folders generated inside active containers.
+tmp/
+temp/
+docker-volumes/
+docker_volumes/
+.docker/
+
+# ------------------------------------------------------------------------------
+# 12. LOGS
+# ------------------------------------------------------------------------------
+# Application logs, node process logs, and test execution logs.
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# ------------------------------------------------------------------------------
+# 13. IDE & DEVELOPER TOOL CONFIGS
+# ------------------------------------------------------------------------------
+# IDE settings (VS Code, WebStorm, PyCharm) are user-specific and can cause
+# local conflicts when pushed to shared repositories.
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# ------------------------------------------------------------------------------
+# 14. COMPRESSION & ARCHIVES
+# ------------------------------------------------------------------------------
+# Prevent committing large zip/tar archives.
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.tgz
+
+# ------------------------------------------------------------------------------
+# 15. COMPILATION & TEMPORARY FILES
+# ------------------------------------------------------------------------------
+# Editor backup and swap files.
+*.bak
+*.swp
+*~
+*.tmp
+*.temp
+
+
+.env

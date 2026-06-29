@@ -1,0 +1,20 @@
+[
+ {
+  "job_title": "Operations Manager",
+  "required_skills": [
+   "leadership",
+   "operations management",
+   "project management",
+   "team coordination"
+  ]
+ },
+ {
+  "job_title": "Network Engineer",
+  "required_skills": [
+   "networking",
+   "tcp/ip",
+   "system administration",
+   "cybersecurity"
+  ]
+ }
+]

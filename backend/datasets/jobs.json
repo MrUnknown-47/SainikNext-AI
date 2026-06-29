@@ -1,0 +1,8 @@
+[
+ { "role": "Network Engineer", "title": "Senior Network Engineer", "company": "TCS", "location": "Delhi" },
+ { "role": "Network Engineer", "title": "Network Systems Specialist", "company": "Infosys", "location": "Bangalore" },
+ { "role": "Network Engineer", "title": "Cisco Systems Administrator", "company": "Wipro", "location": "Pune" },
+ { "role": "Operations Manager", "title": "Logistics Operations Leader", "company": "Reliance", "location": "Mumbai" },
+ { "role": "Operations Manager", "title": "Supply Chain Manager", "company": "Amazon India", "location": "Hyderabad" },
+ { "role": "Project Manager", "title": "IT Project Manager (Agile)", "company": "Cognizant", "location": "Chennai" }
+]
