@@ -13,7 +13,7 @@ function AuthSuccessContent() {
       authService.setToken(token);
     }
     // Instantly reroute user into the active authentication boundaries directly navigating state
-    router.push("/");
+    router.push("/dashboard");
   }, [router, searchParams]);
 
   return (
