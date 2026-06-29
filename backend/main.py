@@ -281,7 +281,7 @@ app = FastAPI(
 )
 
 # Allow CORS for the frontend dynamically
-cors_origins = os.getenv("CORS_ORIGINS", "http://localhost:3000")
+cors_origins = os.getenv("CORS_ORIGINS", "https://sainiknext.vercel.app")
 allow_origins = [o.strip() for o in cors_origins.split(",") if o.strip()]
 
 app.add_middleware(
