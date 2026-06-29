@@ -1,12 +1,8 @@
 import { authService } from "./auth";
 
 const getBaseUrl = () => {
-  if (typeof window !== "undefined" && window.location.origin.includes("vercel.app")) {
-    // Optional Vercel automatic fallback if env not present
-    return "/api";
-  }
-  return process.env.NEXT_PUBLIC_API_URL 
-    ? `${process.env.NEXT_PUBLIC_API_URL.replace(/\/$/, "")}/api` 
+  return process.env.NEXT_PUBLIC_API_URL
+    ? `${process.env.NEXT_PUBLIC_API_URL.replace(/\/$/, "")}/api`
     : "http://localhost:8000/api";
 };
 
